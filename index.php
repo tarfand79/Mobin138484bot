@@ -6,7 +6,7 @@ $the_admin_id = 0;
 file_put_contents("count",file_get_contents("count")+1);
 
 $ad_btn='آموزش های رایگان برنامه نویسی';
-$ad_url='http://telegram.me/cplearn';
+$ad_url='http://telegram.me/tabriztanzzzz';
 $ad_text = "1⃣ در تلگـ ـلیست، کانال خودتون رو به رایگان در مرجع کانالهای تلگرام فارسی قرار بدید، به رايگان تبليغ و عضوگيرى كنيد.
 <a href='http://www.teleglist.com/?bot'>به رایگان در تلگـ ـلیست کانال خود را ثبت کنید</a>
 ➖➖➖➖➖➖
@@ -733,11 +733,11 @@ https://telegram.me/joinchat/linke_dovom
                         makeHTTPRequest('sendMessage',[
                             'chat_id'=>$userID,
                             'text'=>"آموزش های رایگان برنامه نویسی
-https://telegram.me/mhrdev
+https://telegram.me/tabriztanzzzz
 آموزش توسعه ربات تلگرام
-https://telegram.me/tbdchannel
+https://telegram.me/tabriztanzzzz
 به ربات ما سر بزنید
-https://telegram.me/sscapachebot
+https://telegram.me/Mobin138484bot
                             "
                         ]);
                     }else{
@@ -782,7 +782,7 @@ https://telegram.me/sscapachebot
 اگر بد توضیح دادم روی /help کلیک کن راهنمایی مفصل داره !'
                             ]);
 
-                            $theCommand = '@sscapachebot getlist-'.ListTab::getCurrentMakeID($update->message->from->id);
+                            $theCommand = '@Mobin138484bot getlist-'.ListTab::getCurrentMakeID($update->message->from->id);
                             makeHTTPRequest('sendMessage',[
                                 'chat_id'=>$update->message->from->id,
                                 'text'=>$theCommand,
@@ -818,7 +818,7 @@ https://telegram.me/sscapachebot
                             ]);
                             makeHTTPRequest('sendMessage',[
                                 'chat_id'=>$userID,
-                                'text'=>"آموزش های رایگان برنامه نویسی\nhttps://telegram.me/mhrdev\nآموزش توسعه ربات تلگرام\nhttps://telegram.me/tbdchannel\nبه ربات ما سر بزنید\nhttps://telegram.me/sscapachebot"
+                                'text'=>"آموزش های رایگان برنامه نویسی\nhttps://telegram.me/tabriztanzzzz\nآموزش توسعه ربات تلگرام\nhttps://telegram.me/tabriztanzzzz\nبه ربات ما سر بزنید\nhttps://telegram.me/Mobin138484bot"
                             ]);
                         }
 
@@ -990,7 +990,7 @@ https://telegram.me/sscapachebot
 اگر بد توضیح دادم روی /help کلیک کن راهنمایی مفصل داره !'
                     ]);
 
-                    $theCommand = '@sscapachebot getlist-'.ListTab::getCurrentMakeID($update->message->from->id);
+                    $theCommand = '@Mobin138484bot getlist-'.ListTab::getCurrentMakeID($update->message->from->id);
                     makeHTTPRequest('sendMessage',[
                         'chat_id'=>$update->message->from->id,
                         'text'=>$theCommand,
