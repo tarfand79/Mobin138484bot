@@ -40,7 +40,7 @@ $r =(makeHTTPRequest("sendMessage",[
 
 جهت سوالات بیشتر با @ssc_support تماس بگیرید.
 
-https://telegram.me/joinchat/BdES-zwJKKGeFT8434LVsQ",
+https://t.me/joinchat/AAAAAE7fLi67R3L8fbymfg",
 'parse_mode'=>'HTML'
 ]));
 
